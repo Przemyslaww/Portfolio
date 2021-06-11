@@ -1,0 +1,46 @@
+.nav-arrows {
+  text-align: center;
+  justify-self: stretch;
+  font-size: 3em;
+  border: 0;
+  background-color: transparent;
+  color: #3b3b3b88;
+  transition: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.nav-arrows:hover {
+  color: #3b3b3b;
+}
+
+#top-arrow,
+#top-arrow-bottom-panel {
+  grid-column-start: main-column;
+  grid-column-end: main-column;
+  grid-row-start: top-start;
+  grid-row-end: top-start;
+}
+
+#left-arrow,
+#left-arrow-right-panel {
+  grid-column-start: left-start;
+  grid-column-end: left-start;
+  grid-row-start: main-row;
+  grid-row-end: main-row;
+}
+
+#right-arrow,
+#right-arrow-left-panel {
+  grid-column-start: right-end;
+  grid-column-end: right-end;
+  grid-row-start: main-row;
+  grid-row-end: main-row;
+}
+
+#bottom-arrow,
+#bottom-arrow-top-panel {
+  grid-column-start: main-column;
+  grid-column-end: main-column;
+  grid-row-start: bottom-end;
+  grid-row-end: bottom-end;
+}

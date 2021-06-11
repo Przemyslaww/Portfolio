@@ -1,0 +1,20 @@
+#center-panel-main {
+}
+
+#landing-text {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+#landing-image {
+}
+
+#landing-text-big {
+  font-weight: 600;
+  font-size: 5em;
+  color: #333;
+}
+#landing-text-small {
+  font-size: 2em;
+  color: #444;
+}

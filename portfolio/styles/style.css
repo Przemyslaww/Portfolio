@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.sample {
+  font-size: 5em;
+  text-align: center;
+}
+
+.panel {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  display: grid;
+  grid-template-columns: [left-start] 5% [left-separator] 2% [main-column] 86% [right-separator] 2% [right-end] 5%;
+  grid-template-rows: [top-start] 5% [top-separator] 2% [main-row] 86% [bottom-separator] 2% [bottom-end] 5%;
+}
+
+.sample {
+  grid-row: main-row;
+  grid-column: main-column;
+  place-self: center;
+  /* place self can replace both 
+  justify-self: center;
+  align-self: center; */
+}
+
+#top-panel {
+  background-color: aqua;
+  top: 0;
+  left: 100%;
+}
+
+#left-panel {
+  background-color: coral;
+  top: 100%;
+  left: 0;
+}
+
+#center-panel {
+  background-color: lightpink;
+  top: 100%;
+  left: 100%;
+}
+
+#right-panel {
+  background-color: lightgreen;
+  top: 100%;
+  left: 200%;
+}
+
+#bottom-panel {
+  background-color: lightslategray;
+  top: 200%;
+  left: 100%;
+}

@@ -1,0 +1,4 @@
+ obsługa strzałek do nawgiacji (opcjonalne)
+ podzielić stronę na konkretne cześci
+ stworzyć siatkę do strony startowej (landing page ze zdjęciem i napisami)
+ zaplanować animacje
