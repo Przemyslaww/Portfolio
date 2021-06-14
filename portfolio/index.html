@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="pl">
   <head>
@@ -8,6 +7,7 @@
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="/styles/nav-arrows.css">
     <link rel="stylesheet" href="/styles/center-panel-main.css">
+    <link rel="stylesheet" href="/styles/top-panel-main.css">
     <link rel="stylesheet" href="/icons/fontawesome-free-5.15.3-web/css/all.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
@@ -18,7 +18,9 @@
     <div class="main">
         <div class="panel" id="top-panel">
             <button onclick="ScrollToElement('center-panel')" class="nav-arrows" id="bottom-arrow-top-panel"><i class="fas fa-chevron-down"></i></button>
-            <div class="sample">TOP</div>
+            <div id="top-panel-main">
+                BLA BLA
+            </div>
         </div>
         <div class="panel" id="left-panel">
             <button onclick="ScrollToElement('center-panel')" class="nav-arrows" id="right-arrow-left-panel"><i class="fas fa-chevron-right"></i></button>
@@ -29,19 +31,10 @@
             <button onclick="ScrollToElement('left-panel')" class="nav-arrows" id="left-arrow"><i class="fas fa-chevron-left"></i></button>
             <button onclick="ScrollToElement('right-panel')" class="nav-arrows" id="right-arrow"><i class="fas fa-chevron-right"></i></button>
             <button onclick="ScrollToElement('bottom-panel')" class="nav-arrows" id="bottom-arrow"><i class="fas fa-chevron-down"></i></button>
-            <div class="container" id="center-panel-main">
-                <div class="row">
-                    <div class="col-sm">
-                        <div class="row">
-                            <h1 id="landing-text-big">Przemysław Mikulski</h1>
-                        </div>
-                        <div class="row">
-                            <h3 id="landing-text-small">Programming and more...</h3>
-                        </div>                        
-                    </div>
-                    <div class="col-lg"></div>
-                </div>
-
+           
+            <div id="center-panel-main">
+                <h1 class="landing-text" id="landing-text-big">Przemysław Mikulski</h1>
+                <h3 class="landing-text" id="landing-text-small">Programming and more...</h3>
                 <div id="landing-image">
                     <img src="/assets/images/cowboy.png" alt="me">
                 </div>
