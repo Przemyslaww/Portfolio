@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="/styles/center-panel-main.css">
     <link rel="stylesheet" href="/styles/top-panel-main.css">
     <link rel="stylesheet" href="/styles/bottom-panel-main.css">
+    <link rel="stylesheet" href="/styles/left-panel-main.css">
+    <link rel="stylesheet" href="/styles/right-panel-main.css">
     <link rel="stylesheet" href="/icons/fontawesome-free-5.15.3-web/css/all.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
@@ -33,7 +35,7 @@
                             <p class="info">Angular aplication allowing user to create skins loudout in game Counter
                                 Strike Global Offencive </p>
                         </div>
-                        <a class="link" href="">Link</a>
+                        <a class="link" target="_blank" rel="noopener" href="">Link</a>
                     </div>
                 </div>
                 <div class="col">
@@ -43,7 +45,7 @@
                         <div class="infobox">
                             <p class="info">Simple Joomla website with informations about spring event in RËNK</p>
                         </div>
-                        <a class="link" href="">Link</a>
+                        <a class="link" target="_blank" rel="noopener" href="http://www.wiosnawogrodzie.pl/">Link</a>
                     </div>
                 </div>
                 <div class="col">
@@ -53,7 +55,7 @@
                         <div class="infobox">
                             <p class="info">Bootstrap website with list of skins for each team color</p>
                         </div>
-                        <a class="link" href="">Link</a>
+                        <a class="link" target="_blank" rel="noopener" href="">Link</a>
                     </div>
                 </div>
                 <div class="col">
@@ -63,7 +65,7 @@
                         <div class="infobox">
                             <p class="info">.NET application with WPF for managing task for days in month</p>
                         </div>
-                        <a class="link" href="">Link</a>
+                        <a class="link" target="_blank" rel="noopener" href="">Link</a>
                     </div>
                 </div>
             </div>
@@ -72,7 +74,76 @@
     <div class="panel" id="left-panel">
         <button onclick="ScrollToElement('center-panel')" class="nav-arrows" id="right-arrow-left-panel"><i
                 class="fas fa-chevron-right"></i></button>
-        <div class="sample">STACK TECHNOLOGICZNY</div>
+        <div id="left-panel-main">
+            <div id="skills-text">Technical Skills</div>
+            <div id="skills-text-info">Things that I think I'm good at:</div>
+            <div id="skills-container">
+                <div class="col">
+                    <div class="progress">
+                        <div id="html" class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                            aria-valuemax="100" style="width: 70%;">
+                            HTML
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div id="css" class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                            aria-valuemax="100" style="width: 60%;">
+                            CSS
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div id="javascirpt" class="progress-bar" role="progressbar" aria-valuenow="30"
+                            aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+                            JS
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div id="bootstrap" class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                            aria-valuemax="100" style="width: 50%;">
+                            Bootstrap
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div id="wordpress" class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                            aria-valuemax="100" style="width: 40%;">
+                            Wordpress
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="progress">
+                        <div id="dotnet" class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                            aria-valuemax="100" style="width: 80%;">
+                            .NET
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div id="sql" class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                            aria-valuemax="100" style="width: 60%;">
+                            SQL
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div id="wpf" class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                            aria-valuemax="100" style="width: 60%;">
+                            WPF
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div id="unity" class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                            aria-valuemax="100" style="width: 50%;">
+                            Unity
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div id="angular" class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                            aria-valuemax="100" style="width: 20%;">
+                            Angular
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="panel" id="center-panel">
         <button onclick="ScrollToElement('top-panel')" class="nav-arrows" id="top-arrow"><i
@@ -95,7 +166,33 @@
     <div class="panel" id="right-panel">
         <button onclick="ScrollToElement('center-panel')" class="nav-arrows" id="left-arrow-right-panel"><i
                 class="fas fa-chevron-left"></i></button>
-        <div class="sample">HOBBYS</div>
+        <div id="right-panel-main">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col">
+                    <div id="hobby-text">My hobbies</div>
+                </div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <!-- 1. Programming
+            2. CS:GO
+            3. Magic The Gathering
+            4. Playing in band
+            5. Movies
+            6. Image editing
+            7. ...boards
+            8. Cycling -->
+        </div>
     </div>
     <div class="panel" id="bottom-panel">
         <button onclick="ScrollToElement('center-panel')" class="nav-arrows" id="top-arrow-bottom-panel"><i
@@ -106,6 +203,38 @@
                 software
                 or absolutely anything else.
                 Just send me a message and I will respond as soon as I will get it.</div>
+            <div class="contact-container">
+                <div class="col">
+                    <form class="form-group">
+                        <label for="name-input">Your Name</label>
+                        <input id="name-input" class="form-control" type="text" name="">
+                        <label for="email-input">Your email</label>
+                        <input id="email-input" class="form-control" type="email" name="">
+                        <label for="messege-textarea">Messege</label>
+                        <textarea id="messege-textarea" class="form-control" name="" rows="8"></textarea>
+                        <button class="btn" type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="col">
+                    <div id="socials">
+                        <div class="social" id="telephone"><i class="fas fa-phone-alt" aria-hidden="true"></i>Phone: 600
+                            952 289
+                        </div>
+                        <div class="social" id="email"><i class="fas fa-at" aria-hidden="true"></i>Email:
+                            przemyslaw.mikulski1@gmail.com</div>
+                        <div class="social" id="facebook"><i class="fab fa-facebook" aria-hidden="true"></i><a
+                                href="">Facebook</a>
+                        </div>
+                        <div class="social" id="github"><i class="fab fa-github" aria-hidden="true"></i><a
+                                href="">Github</a></div>
+                        <div class="social" id="instagram"><i class="fab fa-instagram" aria-hidden="true"></i><a
+                                href="">Instagram</a>
+                        </div>
+                        <div class="social" id="discord"><i class="fab fa-discord" aria-hidden="true"></i><a
+                                href="">Discord</a></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     </div>

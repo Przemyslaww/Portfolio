@@ -1,0 +1,47 @@
+#left-panel-main {
+    grid-column-start: main-column;
+    grid-column-end: main-column;
+    grid-row-start: main-row;
+    grid-row-end: main-row;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+}
+
+#skills-text {
+    font-size: 300%;
+    text-align: center;
+    text-transform: uppercase;
+    flex-shrink: 0;
+}
+
+#skills-text-info {
+    font-size: 140%;
+    text-align: center;
+    flex-shrink: 0;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+#skills-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%
+}
+
+#skills-container .col {
+    margin: 2%;
+}
+
+#skills-container .progress {
+    font-size: 150%;
+    height: 10%;
+    margin-bottom: 3%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.progress .progress-bar {
+    text-align: left;
+    padding-left: 20px;
+}
