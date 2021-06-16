@@ -14,6 +14,8 @@
 #righ-panel-main .row {
     display: flex;
     flex-direction: row;
+    flex-basis: 33%;
+    justify-content: space-evenly;
     flex-shrink: 0;
 }
 
@@ -24,8 +26,33 @@
     text-transform: uppercase;
 }
 
-#righ-panel-main .row .col {
-    width: 80%;
+.hobby-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid orange;
+    border-radius: 12px;
+    text-align: center;
     height: 80%;
-    background-color: rgba(255, 255, 255, 0.5);
+    width: 80%;
+}
+
+.hobby-card-text {
+    flex-basis: 15%;
+    font-size: 120%;
+    margin-top: 5%;
+    border-bottom: 1px solid #333;
+    width: 80%;
+}
+
+.hobby-card-img {
+    flex-basis: 85%;
+}
+
+.hobby-card .row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
