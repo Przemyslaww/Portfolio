@@ -11,31 +11,82 @@
 #bottom-title {
   text-transform: uppercase;
   text-align: center;
-  font-size: 3em;
+  font-size: 400%;
   padding-bottom: 2%;
-  color: #333;
-  /* text-shadow: #11a3dd 0px 5px 10px; */
 }
 
 #contact-info-text {
   text-align: center;
   font-size: 150%;
-  padding: 2% 8% 5% 8%;
+  margin: 0px 8% 4% 8%;
   width: auto;
   height: auto;
+  flex-shrink: 0;
 }
 
 #heart {
   padding: 0px 3px;
 }
 
-.flex-container {
-  height: 100%;
-  width: 100%;
+.contact-container {
   display: flex;
   flex-direction: row;
-  align-content: stretch;
+  justify-items: stretch;
+  height: 100%;
 }
 
-.flex-container .col {
+.form-group {
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 120%;
+  padding-top: 15px;
+}
+
+.form-group button {
+  border: 2px solid #333;
+  border-radius: 12px;
+  font-size: 130%;
+  font-weight: 600;
+  margin-top: 3%;
+  width: 70%;
+  text-align: center;
+  align-self: center;
+  transition: 100ms;
+}
+
+.form-group button:hover {
+  color: white;
+  background-color: #555;
+}
+
+#socials {
+  padding: 2%;
+  margin-left: 5%;
+}
+
+#form-inside-info {
+  text-align: center;
+  font-size: 120%;
+}
+
+.social {
+  margin-top: 2%;
+  font-size: 150%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.social a {
+  text-decoration: none;
+  color: #222;
+}
+
+.social i {
+  padding-right: 2%;
+  font-size: 200%;
 }

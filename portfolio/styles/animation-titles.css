@@ -1,0 +1,35 @@
+#top-title {
+  color: #fff;
+  text-shadow: 3px 3px 3px #f43545, 6px 6px 3px #ff8901, 9px 9px 5px #80bb09,
+    11px 11px 7px #00c2de;
+  /* animation: shadow 1s infinite alternate ease-in; */
+}
+
+#hobby-text {
+  color: #fff;
+  text-shadow: 3px 3px 3px #f43545, 6px 6px 3px #ff8901, 9px 9px 5px #80bb09,
+    11px 11px 7px #00c2de;
+}
+
+#skills-text {
+  color: #fff;
+  text-shadow: 3px 3px 3px #ffbc02, 6px 6px 3px #80bb09, 9px 9px 5px #00c2de,
+    11px 11px 7px #5f2879;
+}
+
+#bottom-title {
+  color: #fff;
+  text-shadow: 3px 3px 3px #f43545, 6px 6px 3px #ff8901, 9px 9px 5px #80bb09,
+    11px 11px 7px #00c2de;
+}
+
+/* f43545
+fa5f23
+ff8901
+ffbc02
+80BB09
+2bdf3a
+00c2de
+0072be
+00418d
+5f2879 */
